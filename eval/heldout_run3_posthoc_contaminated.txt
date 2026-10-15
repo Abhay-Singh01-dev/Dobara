@@ -1,0 +1,8 @@
+
+[rules-v2.1 post-hoc fix (SEALED half CONTAMINATED: not counted)] DEV H001-H060  n=60
+  auto-correct 34 (57%) | flagged 26 (43%) | SILENT 0 (0.0%)
+  E1 pre-filled without explicit phrase: 0 | explicit phrase missed: 3
+
+[rules-v2.1 post-hoc fix (SEALED half CONTAMINATED: not counted)] SEALED H061-H120  n=60
+  auto-correct 18 (30%) | flagged 42 (70%) | SILENT 0 (0.0%)
+  E1 pre-filled without explicit phrase: 0 | explicit phrase missed: 0

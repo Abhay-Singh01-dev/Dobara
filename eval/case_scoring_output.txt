@@ -1,0 +1,40 @@
+
+A Primary: official focus areas equal  weights=[15, 15, 15, 15, 15, 15, 5, 5]
+    96.0  3 Healthcare
+    82.0  7 Governance
+    66.0  6 Sports
+    66.0  1 AI for All
+    65.0  2 Agriculture
+    64.0  5 Energy
+    56.0  4 Tourism
+   margin #1 over #2: 14.0
+
+B Originality-heavy  weights=[10, 10, 10, 10, 10, 10, 25, 15]
+    93.0  3 Healthcare
+    77.0  7 Governance
+    68.0  2 Agriculture
+    66.0  6 Sports
+    65.0  5 Energy
+    64.0  1 AI for All
+    53.0  4 Tourism
+   margin #1 over #2: 16.0
+
+C Build-feasibility-heavy  weights=[10, 10, 15, 25, 20, 10, 5, 5]
+    94.0  3 Healthcare
+    82.0  7 Governance
+    68.0  6 Sports
+    65.0  1 AI for All
+    64.0  5 Energy
+    61.0  2 Agriculture
+    57.0  4 Tourism
+   margin #1 over #2: 12.0
+
+D Evidence-light (penalise data-rich)  weights=[20, 0, 20, 15, 15, 15, 10, 5]
+    95.0  3 Healthcare
+    85.0  7 Governance
+    71.0  6 Sports
+    67.0  5 Energy
+    64.0  1 AI for All
+    63.0  2 Agriculture
+    58.0  4 Tourism
+   margin #1 over #2: 10.0

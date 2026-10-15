@@ -1,0 +1,22 @@
+Does ordering by the clinician's 'if missed' level get E1 patients called sooner than
+calling in the order patients became overdue (first-come)? A queue MODEL, not real data.
+It models the same demand every day (about 42 calls' worth) for 120 calendar days (no weekends),
+so any capacity below that is sustained overload. Results depend on run length; E2 calls
+deferred by E1-first ordering accumulate. 'Within 2 days' counts from the day an E1 patient
+joins the list (the day after the window ends).
+
+CASE inputs (simulated competition data): 900 visits/day, 28% of follow-ups missed.
+ASSUMPTIONS (varied, not asserted): 30% of visits marked for follow-up; E1/E2/E3 mix
+20/40/40; window mix 7/14/30/90 days at 30/30/30/10%; 93% of patients have some phone
+(case: 7% unreachable); E1 called from the day after the window ends, E2 from 7 days
+after window + grace; E3 gets SMS only; each call attempt reaches one patient.
+
+calls/day | policy      | E1 called within 2 days of joining the list | median E1 wait (days) | E1 calls made
+    10    | first-come  |                0%               |           30          |   337
+    10    | E1-first    |               21%               |            8          |   895
+    20    | first-come  |                9%               |           16          |   637
+    20    | E1-first    |              100%               |            0          |   1121
+    30    | first-come  |               33%               |            7          |   923
+    30    | E1-first    |              100%               |            0          |   1121
+    45    | first-come  |              100%               |            0          |   1121
+    45    | E1-first    |              100%               |            0          |   1121

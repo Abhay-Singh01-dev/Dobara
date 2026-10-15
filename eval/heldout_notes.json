@@ -1,0 +1,1202 @@
+[
+  {
+    "id": "H001",
+    "text": "गर्भावस्था 32 सप्ताह। 2 हफ्ते बाद ज़रूर आएं।",
+    "fu_type": "DATED",
+    "days_min": 14,
+    "days_max": 14,
+    "escalation_explicit": true,
+    "ambiguous": false,
+    "note": "2 weeks; 'zaroor' (must)"
+  },
+  {
+    "id": "H002",
+    "text": "RV after 2 wks / after USG",
+    "fu_type": "DATED",
+    "days_min": 14,
+    "days_max": 14,
+    "escalation_explicit": false,
+    "ambiguous": true,
+    "note": "2 wks or after USG (no date); unclear which governs"
+  },
+  {
+    "id": "H003",
+    "text": "Pulm TB (new), IP phase. Continue 4FDC x 3 tabs daily. Sputum AFB at end of 2 months. F/U 1 month at DOTS centre.",
+    "fu_type": "DATED",
+    "days_min": 30,
+    "days_max": 30,
+    "escalation_explicit": false,
+    "ambiguous": false,
+    "note": "F/U 1 month; sputum at 2 months is test plan, not FU"
+  },
+  {
+    "id": "H004",
+    "text": "एक महीने बाद जांच रिपोर्ट के साथ आएं।",
+    "fu_type": "DATED",
+    "days_min": 30,
+    "days_max": 30,
+    "escalation_explicit": false,
+    "ambiguous": false,
+    "note": "1 month with reports"
+  },
+  {
+    "id": "H005",
+    "text": "K/C/O HTN, DM. Continue same medications x 1 month.",
+    "fu_type": "UNCLEAR",
+    "days_min": null,
+    "days_max": null,
+    "escalation_explicit": false,
+    "ambiguous": false,
+    "note": "1 month is drug supply; no return written"
+  },
+  {
+    "id": "H006",
+    "text": "15 दिन बाद दिखाएं।",
+    "fu_type": "DATED",
+    "days_min": 15,
+    "days_max": 15,
+    "escalation_explicit": false,
+    "ambiguous": false,
+    "note": "15 days"
+  },
+  {
+    "id": "H007",
+    "text": "Sugar ki jaanch khali pet karwa ke 15 din baad reports leke aana.",
+    "fu_type": "DATED",
+    "days_min": 15,
+    "days_max": 15,
+    "escalation_explicit": false,
+    "ambiguous": false,
+    "note": "15 days with fasting sugar report"
+  },
+  {
+    "id": "H008",
+    "text": "दवा लगातार लें। अगले हफ्ते दिखाएं, ज़रूरी है।",
+    "fu_type": "DATED",
+    "days_min": 7,
+    "days_max": 13,
+    "escalation_explicit": true,
+    "ambiguous": false,
+    "note": "next week (days 7-13); 'zaroori hai' = important"
+  },
+  {
+    "id": "H009",
+    "text": "Tab Doxy 100 BD x 5d, Tab Rifaximin 400 TDS x 14d. Dawai khatam hone par aana.",
+    "fu_type": "DATED",
+    "days_min": 5,
+    "days_max": 14,
+    "escalation_explicit": false,
+    "ambiguous": true,
+    "note": "return when meds finish, but courses are 5d and 14d"
+  },
+  {
+    "id": "H010",
+    "text": "Dobara aane ki zarurat nahi.",
+    "fu_type": "NONE",
+    "days_min": null,
+    "days_max": null,
+    "escalation_explicit": false,
+    "ambiguous": false,
+    "note": "no need to come again"
+  },
+  {
+    "id": "H011",
+    "text": "Diabetic foot ulcer (R) great toe, Wagner 2. Daily dressing at PHC. Review surgery OPD after 5 days.",
+    "fu_type": "DATED",
+    "days_min": 5,
+    "days_max": 5,
+    "escalation_explicit": false,
+    "ambiguous": false,
+    "note": "5 days; dressing at PHC is not the FU"
+  },
+  {
+    "id": "H012",
+    "text": "Echo + TMT advised at DH. Review med OPD with reports. Not urgent.",
+    "fu_type": "CONDITIONAL",
+    "days_min": null,
+    "days_max": null,
+    "escalation_explicit": false,
+    "ambiguous": false,
+    "note": "no window; 'not urgent'"
+  },
+  {
+    "id": "H013",
+    "text": "Review after 1 month with LFT. Do not miss.",
+    "fu_type": "DATED",
+    "days_min": 30,
+    "days_max": 30,
+    "escalation_explicit": true,
+    "ambiguous": false,
+    "note": "1 month with test; 'do not miss'"
+  },
+  {
+    "id": "H014",
+    "text": "FNAC neck swelling sent. Review once report available. Do not miss.",
+    "fu_type": "CONDITIONAL",
+    "days_min": null,
+    "days_max": null,
+    "escalation_explicit": true,
+    "ambiguous": false,
+    "note": "no window; 'do not miss'"
+  },
+  {
+    "id": "H015",
+    "text": "Fever since 2 days. If fever >3 days or rash/bleeding gums, come for dengue NS1 test.",
+    "fu_type": "SOS",
+    "days_min": null,
+    "days_max": null,
+    "escalation_explicit": false,
+    "ambiguous": false,
+    "note": "return only if symptoms persist/worsen"
+  },
+  {
+    "id": "H016",
+    "text": "USG W/A, LFT adv.  RV c̄ reports",
+    "fu_type": "CONDITIONAL",
+    "days_min": null,
+    "days_max": null,
+    "escalation_explicit": false,
+    "ambiguous": false,
+    "note": "review with reports, no window"
+  },
+  {
+    "id": "H017",
+    "text": "c/o pain abdomen since 2 days. Imp: APD. Tab Pantoprazole 40 OD BBF x 14d, Syp Sucralfate 2 tsp TDS. RV 1 wk.",
+    "fu_type": "DATED",
+    "days_min": 7,
+    "days_max": 7,
+    "escalation_explicit": false,
+    "ambiguous": false,
+    "note": "RV 1 wk; 14d is drug duration, 2 days is complaint duration"
+  },
+  {
+    "id": "H018",
+    "text": "RV 2/7 with CBC + platelet count report.",
+    "fu_type": "DATED",
+    "days_min": 2,
+    "days_max": 2,
+    "escalation_explicit": false,
+    "ambiguous": false,
+    "note": "2/7 = 2 days"
+  },
+  {
+    "id": "H019",
+    "text": "BP 130/84. Adv salt restriction, brisk walk 30 min daily.",
+    "fu_type": "UNCLEAR",
+    "days_min": null,
+    "days_max": null,
+    "escalation_explicit": false,
+    "ambiguous": false,
+    "note": "advice only"
+  },
+  {
+    "id": "H020",
+    "text": "Agle somvar ko dikhana.",
+    "fu_type": "DATED",
+    "days_min": 7,
+    "days_max": 7,
+    "escalation_explicit": false,
+    "ambiguous": false,
+    "note": "next Monday = 9 Nov = 7 days (visit is Monday)"
+  },
+  {
+    "id": "H021",
+    "text": "MUST COME after 7 days for suture removal.",
+    "fu_type": "DATED",
+    "days_min": 7,
+    "days_max": 7,
+    "escalation_explicit": true,
+    "ambiguous": false,
+    "note": "'must come', 7 days"
+  },
+  {
+    "id": "H022",
+    "text": "Review SOS.",
+    "fu_type": "SOS",
+    "days_min": null,
+    "days_max": null,
+    "escalation_explicit": false,
+    "ambiguous": false,
+    "note": "SOS only"
+  },
+  {
+    "id": "H023",
+    "text": "Important: come after 2 weeks for HPE report discussion.",
+    "fu_type": "DATED",
+    "days_min": 14,
+    "days_max": 14,
+    "escalation_explicit": true,
+    "ambiguous": false,
+    "note": "2 weeks; 'important'"
+  },
+  {
+    "id": "H024",
+    "text": "RV before 1 wk but within 2 wks",
+    "fu_type": "DATED",
+    "days_min": 7,
+    "days_max": 14,
+    "escalation_explicit": false,
+    "ambiguous": true,
+    "note": "self-contradictory window; 7-14 is best guess"
+  },
+  {
+    "id": "H025",
+    "text": "Counselled re diet & exercise, lifestyle modification.",
+    "fu_type": "UNCLEAR",
+    "days_min": null,
+    "days_max": null,
+    "escalation_explicit": false,
+    "ambiguous": false,
+    "note": "advice only"
+  },
+  {
+    "id": "H026",
+    "text": "Colles # (L) wrist - below elbow POP slab applied. Limb elevation, finger movements. Review ortho OPD after 1 wk c check X-ray.",
+    "fu_type": "DATED",
+    "days_min": 7,
+    "days_max": 7,
+    "escalation_explicit": false,
+    "ambiguous": false,
+    "note": "1 week, ortho OPD, 'c' = with"
+  },
+  {
+    "id": "H027",
+    "text": "Review with reports.",
+    "fu_type": "CONDITIONAL",
+    "days_min": null,
+    "days_max": null,
+    "escalation_explicit": false,
+    "ambiguous": false,
+    "note": "return with reports, no window"
+  },
+  {
+    "id": "H028",
+    "text": "RV 1 wk / 15 days",
+    "fu_type": "DATED",
+    "days_min": 7,
+    "days_max": 15,
+    "escalation_explicit": false,
+    "ambiguous": true,
+    "note": "two different windows written"
+  },
+  {
+    "id": "H029",
+    "text": "Reports leke aana.",
+    "fu_type": "CONDITIONAL",
+    "days_min": null,
+    "days_max": null,
+    "escalation_explicit": false,
+    "ambiguous": false,
+    "note": "bring reports, no window"
+  },
+  {
+    "id": "H030",
+    "text": "15 din baad aana ZAROOR",
+    "fu_type": "DATED",
+    "days_min": 15,
+    "days_max": 15,
+    "escalation_explicit": true,
+    "ambiguous": false,
+    "note": "15 days; 'zaroor'"
+  },
+  {
+    "id": "H031",
+    "text": "Review after 1 week.\nF/U 1 month with LFT.",
+    "fu_type": "DATED",
+    "days_min": 7,
+    "days_max": 30,
+    "escalation_explicit": false,
+    "ambiguous": true,
+    "note": "two windows; unclear if sequential or alternative"
+  },
+  {
+    "id": "H032",
+    "text": "Review on 04/01/2027 in NCD clinic.",
+    "fu_type": "DATED",
+    "days_min": 63,
+    "days_max": 63,
+    "escalation_explicit": false,
+    "ambiguous": false,
+    "note": "4 Jan 2027 = 63 days"
+  },
+  {
+    "id": "H033",
+    "text": "PIH, BP 150/100 @ 32 wks. Tab Labetalol 100 BD. Pt to come without fail on 9/11 for NST & BP check.",
+    "fu_type": "DATED",
+    "days_min": 7,
+    "days_max": 7,
+    "escalation_explicit": true,
+    "ambiguous": false,
+    "note": "9 Nov = 7 days; 'without fail'"
+  },
+  {
+    "id": "H034",
+    "text": "Dressing at PHC alternate days. Come to surgery OPD SOS.",
+    "fu_type": "SOS",
+    "days_min": null,
+    "days_max": null,
+    "escalation_explicit": false,
+    "ambiguous": false,
+    "note": "OPD return SOS; PHC dressing is not OPD FU"
+  },
+  {
+    "id": "H035",
+    "text": "Bronchial asthma. Budesonide+Formoterol 200 rotacap BD, Levolin inhaler SOS. R/V 6 wks.",
+    "fu_type": "DATED",
+    "days_min": 42,
+    "days_max": 42,
+    "escalation_explicit": false,
+    "ambiguous": false,
+    "note": "6 weeks; SOS refers to reliever inhaler, not return"
+  },
+  {
+    "id": "H036",
+    "text": "c/o cough x 2 weeks. Sputum AFB x 2 sent.",
+    "fu_type": "UNCLEAR",
+    "days_min": null,
+    "days_max": null,
+    "escalation_explicit": false,
+    "ambiguous": false,
+    "note": "test sent but no return instruction"
+  },
+  {
+    "id": "H037",
+    "text": "Lump (L) breast 3x3 cm, hard, fixed, axillary LN palpable. Core biopsy sent. RV 1 week.",
+    "fu_type": "DATED",
+    "days_min": 7,
+    "days_max": 7,
+    "escalation_explicit": false,
+    "ambiguous": false,
+    "note": "suspicious malignancy but no urgency phrase written"
+  },
+  {
+    "id": "H038",
+    "text": "Continue same treatment. Follow up.",
+    "fu_type": "CONDITIONAL",
+    "days_min": null,
+    "days_max": null,
+    "escalation_explicit": false,
+    "ambiguous": false,
+    "note": "FU requested, no window"
+  },
+  {
+    "id": "H039",
+    "text": "Review after a fortnight.",
+    "fu_type": "DATED",
+    "days_min": 14,
+    "days_max": 14,
+    "escalation_explicit": false,
+    "ambiguous": false,
+    "note": "fortnight = 14"
+  },
+  {
+    "id": "H040",
+    "text": "RV on 15/11/26 (after 2 wks)",
+    "fu_type": "DATED",
+    "days_min": 13,
+    "days_max": 14,
+    "escalation_explicit": false,
+    "ambiguous": true,
+    "note": "15 Nov is a Sunday (13 days) vs 2 wks (14); OPD closed"
+  },
+  {
+    "id": "H041",
+    "text": "Referred to higher centre (AIIMS) for further management. No follow up here.",
+    "fu_type": "NONE",
+    "days_min": null,
+    "days_max": null,
+    "escalation_explicit": false,
+    "ambiguous": false,
+    "note": "referred out; no FU at this OPD"
+  },
+  {
+    "id": "H042",
+    "text": "SOS.",
+    "fu_type": "SOS",
+    "days_min": null,
+    "days_max": null,
+    "escalation_explicit": false,
+    "ambiguous": false,
+    "note": "SOS only"
+  },
+  {
+    "id": "H043",
+    "text": "Chest pain - ECG normal, Trop I negative. Likely musculoskeletal. Review after 3 days. Not urgent.",
+    "fu_type": "DATED",
+    "days_min": 3,
+    "days_max": 3,
+    "escalation_explicit": false,
+    "ambiguous": false,
+    "note": "3 days; 'not urgent' = no escalation"
+  },
+  {
+    "id": "H044",
+    "text": "Dengue NS1 +ve, plt 88,000. Urgent review after 2 days with CBC, platelet count.",
+    "fu_type": "DATED",
+    "days_min": 2,
+    "days_max": 2,
+    "escalation_explicit": true,
+    "ambiguous": false,
+    "note": "'urgent review' after 2 days"
+  },
+  {
+    "id": "H045",
+    "text": "RV Sat with reports",
+    "fu_type": "DATED",
+    "days_min": 5,
+    "days_max": 5,
+    "escalation_explicit": false,
+    "ambiguous": false,
+    "note": "visit Monday; Saturday = 7 Nov = 5 days"
+  },
+  {
+    "id": "H046",
+    "text": "TINEA CORPORIS.  TAB TERBINAFINE 250 OD X 2 WKS.   RV  1  WK   SKIN  OPD  ",
+    "fu_type": "DATED",
+    "days_min": 7,
+    "days_max": 7,
+    "escalation_explicit": false,
+    "ambiguous": false,
+    "note": "RV 1 wk; 2 wks is drug duration"
+  },
+  {
+    "id": "H047",
+    "text": "Review on 28/10/26 with reports.",
+    "fu_type": "DATED",
+    "days_min": -5,
+    "days_max": -5,
+    "escalation_explicit": false,
+    "ambiguous": true,
+    "note": "date already past (-5); probably meant 28/11 (26 days)"
+  },
+  {
+    "id": "H048",
+    "text": "Plaster 3 hafte rahega. 3 hafte baad ortho OPD me aana, plaster katega.",
+    "fu_type": "DATED",
+    "days_min": 21,
+    "days_max": 21,
+    "escalation_explicit": false,
+    "ambiguous": false,
+    "note": "3 weeks, ortho OPD"
+  },
+  {
+    "id": "H049",
+    "text": "Fever x 3 days. Tab PCM 500 TDS x 3d. If fever persists beyond 3 days, review.",
+    "fu_type": "SOS",
+    "days_min": null,
+    "days_max": null,
+    "escalation_explicit": false,
+    "ambiguous": false,
+    "note": "return only if fever persists; durations are complaint/drug"
+  },
+  {
+    "id": "H050",
+    "text": "Rif resistance detected on CBNAAT. Referred to DR-TB centre. F/U here after 2 weeks.",
+    "fu_type": "DATED",
+    "days_min": 14,
+    "days_max": 14,
+    "escalation_explicit": false,
+    "ambiguous": false,
+    "note": "2 weeks; referral does not change FU here"
+  },
+  {
+    "id": "H051",
+    "text": "K/C/O T2DM on Tab Metformin 500 BD. FBS 168, PPBS 242.\nInc Metformin to 1 gm BD. Diet adv.\nReview after 1 month with FBS/PPBS.",
+    "fu_type": "DATED",
+    "days_min": 30,
+    "days_max": 30,
+    "escalation_explicit": false,
+    "ambiguous": false,
+    "note": "1 month = 30 days, with tests"
+  },
+  {
+    "id": "H052",
+    "text": "Inj Diclofenac 75 mg IM stat. Tab Zerodol-P BD x 5 days.",
+    "fu_type": "UNCLEAR",
+    "days_min": null,
+    "days_max": null,
+    "escalation_explicit": false,
+    "ambiguous": false,
+    "note": "drug lines only"
+  },
+  {
+    "id": "H053",
+    "text": "MDD with suicidal ideation, attendant counselled, means restriction explained. Review after 1 wk in psychiatry OPD.",
+    "fu_type": "DATED",
+    "days_min": 7,
+    "days_max": 7,
+    "escalation_explicit": false,
+    "ambiguous": false,
+    "note": "high-risk psych but no urgency phrase"
+  },
+  {
+    "id": "H054",
+    "text": "No F/U required. Discharged from OPD.",
+    "fu_type": "NONE",
+    "days_min": null,
+    "days_max": null,
+    "escalation_explicit": false,
+    "ambiguous": false,
+    "note": "explicit no FU"
+  },
+  {
+    "id": "H055",
+    "text": "TFT sent. If TSH normal - no F/U. If raised, RV 2 wks in NCD clinic.",
+    "fu_type": "SOS",
+    "days_min": null,
+    "days_max": null,
+    "escalation_explicit": false,
+    "ambiguous": true,
+    "note": "return depends on result; 2 wks only if abnormal"
+  },
+  {
+    "id": "H056",
+    "text": "Review after 10 days. Tab Cefuroxime 500 BD x 7d. F/U 1 wk.",
+    "fu_type": "DATED",
+    "days_min": 7,
+    "days_max": 10,
+    "escalation_explicit": false,
+    "ambiguous": true,
+    "note": "conflicting 10 days vs 1 wk"
+  },
+  {
+    "id": "H057",
+    "text": "VA RE 6/12, LE 6/9. Refraction done, spectacles prescribed. Review after 6 months.",
+    "fu_type": "DATED",
+    "days_min": 180,
+    "days_max": 180,
+    "escalation_explicit": false,
+    "ambiguous": false,
+    "note": "6 months; 6/12 is visual acuity, not a window"
+  },
+  {
+    "id": "H058",
+    "text": "10 din ki dawai di hai, khatam hone ke baad dikhayein.",
+    "fu_type": "DATED",
+    "days_min": 10,
+    "days_max": 10,
+    "escalation_explicit": false,
+    "ambiguous": false,
+    "note": "return after 10-day course ends"
+  },
+  {
+    "id": "H059",
+    "text": "RV on 23/11 c̄ USG abd.",
+    "fu_type": "DATED",
+    "days_min": 21,
+    "days_max": 21,
+    "escalation_explicit": false,
+    "ambiguous": false,
+    "note": "23 Nov = 21 days; c-bar = with"
+  },
+  {
+    "id": "H060",
+    "text": "दोबारा आने की आवश्यकता नहीं।",
+    "fu_type": "NONE",
+    "days_min": null,
+    "days_max": null,
+    "escalation_explicit": false,
+    "ambiguous": false,
+    "note": "no need to come again"
+  },
+  {
+    "id": "H061",
+    "text": "Excision biopsy done. Review after HPE report.",
+    "fu_type": "CONDITIONAL",
+    "days_min": null,
+    "days_max": null,
+    "escalation_explicit": false,
+    "ambiguous": false,
+    "note": "tied to report, no window"
+  },
+  {
+    "id": "H062",
+    "text": "Child with SAM (MUAC 11.2 cm), referred NRC, parents refused. RV after 3 days - must come.",
+    "fu_type": "DATED",
+    "days_min": 3,
+    "days_max": 3,
+    "escalation_explicit": true,
+    "ambiguous": false,
+    "note": "3 days; 'must come'"
+  },
+  {
+    "id": "H063",
+    "text": "Sutures removed, healed well. Nil F/U.",
+    "fu_type": "NONE",
+    "days_min": null,
+    "days_max": null,
+    "escalation_explicit": false,
+    "ambiguous": false,
+    "note": "nil F/U"
+  },
+  {
+    "id": "H064",
+    "text": "High risk pregnancy (twins, prev LSCS). Review after 1 week. Call pt if not come.",
+    "fu_type": "DATED",
+    "days_min": 7,
+    "days_max": 7,
+    "escalation_explicit": true,
+    "ambiguous": false,
+    "note": "'call if not come' = explicit escalation"
+  },
+  {
+    "id": "H065",
+    "text": "RV next Friday",
+    "fu_type": "DATED",
+    "days_min": 4,
+    "days_max": 11,
+    "escalation_explicit": false,
+    "ambiguous": true,
+    "note": "visit Monday: 6 Nov (4) or 13 Nov (11)"
+  },
+  {
+    "id": "H066",
+    "text": "Tab PCM 650 mg SOS for fever. Tab Cetirizine 10 mg HS x 5 days.",
+    "fu_type": "UNCLEAR",
+    "days_min": null,
+    "days_max": null,
+    "escalation_explicit": false,
+    "ambiguous": false,
+    "note": "SOS is for the drug, not return; no FU written"
+  },
+  {
+    "id": "H067",
+    "text": "Diwali ke baad zaroor aana, BP dekhna hai.",
+    "fu_type": "DATED",
+    "days_min": 7,
+    "days_max": 13,
+    "escalation_explicit": true,
+    "ambiguous": true,
+    "note": "Diwali 2026 = 8 Nov (day 6); 'after Diwali' open-ended, 7-13 is a guess"
+  },
+  {
+    "id": "H068",
+    "text": "ATT defaulter retrieved, ATT restarted. Har mahine zaroor aana - next visit 1 month.",
+    "fu_type": "DATED",
+    "days_min": 30,
+    "days_max": 30,
+    "escalation_explicit": true,
+    "ambiguous": false,
+    "note": "1 month; 'zaroor aana'"
+  },
+  {
+    "id": "H069",
+    "text": "Review after 7-10 days.",
+    "fu_type": "DATED",
+    "days_min": 7,
+    "days_max": 10,
+    "escalation_explicit": false,
+    "ambiguous": false,
+    "note": "range 7-10 days"
+  },
+  {
+    "id": "H070",
+    "text": "Follow-up not required - complete course of medicines.",
+    "fu_type": "NONE",
+    "days_min": null,
+    "days_max": null,
+    "escalation_explicit": false,
+    "ambiguous": false,
+    "note": "explicit no FU"
+  },
+  {
+    "id": "H071",
+    "text": "G3P2 @ 34 wks, severe anaemia Hb 6.1. Inj FCM 500 mg given. RV after 1 wk.",
+    "fu_type": "DATED",
+    "days_min": 7,
+    "days_max": 7,
+    "escalation_explicit": false,
+    "ambiguous": false,
+    "note": "severe anaemia in pregnancy but no urgency phrase"
+  },
+  {
+    "id": "H072",
+    "text": "ANC 28 wks. RV 1 wk with Hb. Next ANC after 4 wks.",
+    "fu_type": "DATED",
+    "days_min": 7,
+    "days_max": 28,
+    "escalation_explicit": false,
+    "ambiguous": true,
+    "note": "two windows (1 wk vs 4 wks)"
+  },
+  {
+    "id": "H073",
+    "text": "बुखार 3 दिन से। ज़रूरत हो तो दोबारा आएं।",
+    "fu_type": "SOS",
+    "days_min": null,
+    "days_max": null,
+    "escalation_explicit": false,
+    "ambiguous": false,
+    "note": "return if needed; 3 days is complaint duration"
+  },
+  {
+    "id": "H074",
+    "text": "Pt apne gaon ja raha hai 1 mahine ke liye. RV 1 wk ya wapas aane ke baad.",
+    "fu_type": "DATED",
+    "days_min": 7,
+    "days_max": 30,
+    "escalation_explicit": false,
+    "ambiguous": true,
+    "note": "1 wk or after returning from village (~1 month)"
+  },
+  {
+    "id": "H075",
+    "text": "Tab Cefixime 200 BD x 5 days. Review on 6th day.",
+    "fu_type": "DATED",
+    "days_min": 5,
+    "days_max": 6,
+    "escalation_explicit": false,
+    "ambiguous": true,
+    "note": "6th day counted from today (5) or tomorrow (6)"
+  },
+  {
+    "id": "H076",
+    "text": "Imp: AGE. ORS, Tab Ondansetron 4 mg SOS, Tab Metronidazole 400 TDS x 5d.",
+    "fu_type": "UNCLEAR",
+    "days_min": null,
+    "days_max": null,
+    "escalation_explicit": false,
+    "ambiguous": false,
+    "note": "drug SOS and durations only"
+  },
+  {
+    "id": "H077",
+    "text": "Kal subah khali pet aana, blood test hoga.",
+    "fu_type": "DATED",
+    "days_min": 1,
+    "days_max": 1,
+    "escalation_explicit": false,
+    "ambiguous": false,
+    "note": "kal = tomorrow"
+  },
+  {
+    "id": "H078",
+    "text": "तबीयत ज़्यादा खराब हो तो तुरंत आएं।",
+    "fu_type": "SOS",
+    "days_min": null,
+    "days_max": null,
+    "escalation_explicit": false,
+    "ambiguous": false,
+    "note": "come immediately only if worse; immediacy is SOS warning, not a scheduled-return escalation"
+  },
+  {
+    "id": "H079",
+    "text": "HTN - BP 156/98 mmHg. Tab Amlodipine 5 mg OD. Salt restriction. F/U 2/52 NCD clinic.",
+    "fu_type": "DATED",
+    "days_min": 14,
+    "days_max": 14,
+    "escalation_explicit": false,
+    "ambiguous": false,
+    "note": "2/52 = 2 weeks"
+  },
+  {
+    "id": "H080",
+    "text": "Imp: Viral fever. Tab PCM 650 mg TDS x 3d, plenty of oral fluids. R/V after 3 days.",
+    "fu_type": "DATED",
+    "days_min": 3,
+    "days_max": 3,
+    "escalation_explicit": false,
+    "ambiguous": false,
+    "note": "RV after 3 days; Rx x3d coincides but RV is explicit"
+  },
+  {
+    "id": "H081",
+    "text": "Next visit 31/11",
+    "fu_type": "DATED",
+    "days_min": 28,
+    "days_max": 29,
+    "escalation_explicit": false,
+    "ambiguous": true,
+    "note": "31 Nov does not exist; 30 Nov (28) or 1 Dec (29)"
+  },
+  {
+    "id": "H082",
+    "text": "Pap smear taken. Collect report and show in Gynae OPD.",
+    "fu_type": "CONDITIONAL",
+    "days_min": null,
+    "days_max": null,
+    "escalation_explicit": false,
+    "ambiguous": false,
+    "note": "show report, no window"
+  },
+  {
+    "id": "H083",
+    "text": "Review on 16/11/2026 with reports.",
+    "fu_type": "DATED",
+    "days_min": 14,
+    "days_max": 14,
+    "escalation_explicit": false,
+    "ambiguous": false,
+    "note": "16 Nov 2026 = 14 days"
+  },
+  {
+    "id": "H084",
+    "text": "No follow up needed.",
+    "fu_type": "NONE",
+    "days_min": null,
+    "days_max": null,
+    "escalation_explicit": false,
+    "ambiguous": false,
+    "note": "explicit no FU"
+  },
+  {
+    "id": "H085",
+    "text": "come back nxt week for dressing",
+    "fu_type": "DATED",
+    "days_min": 7,
+    "days_max": 13,
+    "escalation_explicit": false,
+    "ambiguous": false,
+    "note": "next week = Mon 9 to Sun 15 Nov (days 7-13)"
+  },
+  {
+    "id": "H086",
+    "text": "Next visit 02/12/26 - NCD clinic. Bring BP diary.",
+    "fu_type": "DATED",
+    "days_min": 30,
+    "days_max": 30,
+    "escalation_explicit": false,
+    "ambiguous": false,
+    "note": "2 Dec 2026 = 30 days"
+  },
+  {
+    "id": "H087",
+    "text": "Lesions resolved. Come back only if they recur.",
+    "fu_type": "SOS",
+    "days_min": null,
+    "days_max": null,
+    "escalation_explicit": false,
+    "ambiguous": false,
+    "note": "return only on recurrence"
+  },
+  {
+    "id": "H088",
+    "text": "Otitis externa (R). Ciplox ear drops 2 drops TDS x 7d. Keep ear dry. RV 10 days ENT OPD.",
+    "fu_type": "DATED",
+    "days_min": 10,
+    "days_max": 10,
+    "escalation_explicit": false,
+    "ambiguous": false,
+    "note": "RV 10 days; 7d is drop duration"
+  },
+  {
+    "id": "H089",
+    "text": "Thyroid profile karwa ke dikhana.",
+    "fu_type": "CONDITIONAL",
+    "days_min": null,
+    "days_max": null,
+    "escalation_explicit": false,
+    "ambiguous": false,
+    "note": "get TFT done and show; no window"
+  },
+  {
+    "id": "H090",
+    "text": "Threatened abortion, bleeding settled. If bleeding increases MUST come immediately to labour room.",
+    "fu_type": "SOS",
+    "days_min": null,
+    "days_max": null,
+    "escalation_explicit": true,
+    "ambiguous": false,
+    "note": "conditional return but 'must come' written"
+  },
+  {
+    "id": "H091",
+    "text": "Follow up in NCD clinic.",
+    "fu_type": "CONDITIONAL",
+    "days_min": null,
+    "days_max": null,
+    "escalation_explicit": false,
+    "ambiguous": false,
+    "note": "FU requested, no window"
+  },
+  {
+    "id": "H092",
+    "text": "RV 2/12",
+    "fu_type": "DATED",
+    "days_min": 30,
+    "days_max": 60,
+    "escalation_explicit": false,
+    "ambiguous": true,
+    "note": "2/12 = 2 months (60) or 2 Dec (30)"
+  },
+  {
+    "id": "H093",
+    "text": "Dawai time pe lena. 2 hafte baad dikhayein.",
+    "fu_type": "DATED",
+    "days_min": 14,
+    "days_max": 14,
+    "escalation_explicit": false,
+    "ambiguous": false,
+    "note": "2 weeks"
+  },
+  {
+    "id": "H094",
+    "text": "If not better come back.",
+    "fu_type": "SOS",
+    "days_min": null,
+    "days_max": null,
+    "escalation_explicit": false,
+    "ambiguous": false,
+    "note": "return only if not better"
+  },
+  {
+    "id": "H095",
+    "text": "रिपोर्ट आने पर दिखाएं।",
+    "fu_type": "CONDITIONAL",
+    "days_min": null,
+    "days_max": null,
+    "escalation_explicit": false,
+    "ambiguous": false,
+    "note": "show when reports come; no window"
+  },
+  {
+    "id": "H096",
+    "text": "Next visit: 02/11/26. Continue Rx.",
+    "fu_type": "DATED",
+    "days_min": 0,
+    "days_max": 0,
+    "escalation_explicit": false,
+    "ambiguous": true,
+    "note": "date equals visit date; likely copy error"
+  },
+  {
+    "id": "H097",
+    "text": "दिनांक 20/11 को हड्डी विभाग (ortho OPD) में आएं।",
+    "fu_type": "DATED",
+    "days_min": 18,
+    "days_max": 18,
+    "escalation_explicit": false,
+    "ambiguous": false,
+    "note": "20 Nov = 18 days, ortho"
+  },
+  {
+    "id": "H098",
+    "text": "Cap Doxycycline 100 mg BD. Reveiw after completing antibiotic course.",
+    "fu_type": "CONDITIONAL",
+    "days_min": null,
+    "days_max": null,
+    "escalation_explicit": false,
+    "ambiguous": false,
+    "note": "course length not written, so no computable window"
+  },
+  {
+    "id": "H099",
+    "text": "NO FOLLOW UP.",
+    "fu_type": "NONE",
+    "days_min": null,
+    "days_max": null,
+    "escalation_explicit": false,
+    "ambiguous": false,
+    "note": "explicit no FU"
+  },
+  {
+    "id": "H100",
+    "text": "reveiw afetr 10 dyas",
+    "fu_type": "DATED",
+    "days_min": 10,
+    "days_max": 10,
+    "escalation_explicit": false,
+    "ambiguous": false,
+    "note": "typos; review after 10 days"
+  },
+  {
+    "id": "H101",
+    "text": "Agar aaram na mile to dobara dikhayein.",
+    "fu_type": "SOS",
+    "days_min": null,
+    "days_max": null,
+    "escalation_explicit": false,
+    "ambiguous": false,
+    "note": "return if no relief"
+  },
+  {
+    "id": "H102",
+    "text": "RV 1 1/2 month",
+    "fu_type": "DATED",
+    "days_min": 45,
+    "days_max": 45,
+    "escalation_explicit": false,
+    "ambiguous": false,
+    "note": "1.5 months = 45 days"
+  },
+  {
+    "id": "H103",
+    "text": "पेट दर्द 2 दिन से। Tab Pantop 40 सुबह खाली पेट x 10 दिन।",
+    "fu_type": "UNCLEAR",
+    "days_min": null,
+    "days_max": null,
+    "escalation_explicit": false,
+    "ambiguous": false,
+    "note": "only complaint + Rx duration; no FU instruction"
+  },
+  {
+    "id": "H104",
+    "text": "Danger signs explained to mother - come immediately if not feeding, fast breathing, convulsions.",
+    "fu_type": "SOS",
+    "days_min": null,
+    "days_max": null,
+    "escalation_explicit": false,
+    "ambiguous": false,
+    "note": "danger-sign return only; no urgency phrase about a scheduled return"
+  },
+  {
+    "id": "H105",
+    "text": "Sputum CBNAAT sent (2 samples). Review with result.",
+    "fu_type": "CONDITIONAL",
+    "days_min": null,
+    "days_max": null,
+    "escalation_explicit": false,
+    "ambiguous": false,
+    "note": "TB workup; no window, no urgency phrase"
+  },
+  {
+    "id": "H106",
+    "text": "शुगर की दवाई रोज़ लें। 3 महीने बाद HbA1c करवा के दिखाएं।",
+    "fu_type": "DATED",
+    "days_min": 90,
+    "days_max": 90,
+    "escalation_explicit": false,
+    "ambiguous": false,
+    "note": "3 months with HbA1c"
+  },
+  {
+    "id": "H107",
+    "text": "Fever since 3/7. Rx: Tab PCM 500 TDS x 3/7.",
+    "fu_type": "UNCLEAR",
+    "days_min": null,
+    "days_max": null,
+    "escalation_explicit": false,
+    "ambiguous": false,
+    "note": "3/7 is complaint and drug duration"
+  },
+  {
+    "id": "H108",
+    "text": "GDM - diet chart given. FBS + 2 hr PPBS after 1 week, review same day with report in Gynae OPD.",
+    "fu_type": "DATED",
+    "days_min": 7,
+    "days_max": 7,
+    "escalation_explicit": false,
+    "ambiguous": false,
+    "note": "test and review at 1 week"
+  },
+  {
+    "id": "H109",
+    "text": "Tab PCM 650 SOS. Review SOS.",
+    "fu_type": "SOS",
+    "days_min": null,
+    "days_max": null,
+    "escalation_explicit": false,
+    "ambiguous": false,
+    "note": "review SOS (first SOS is drug)"
+  },
+  {
+    "id": "H110",
+    "text": "No follow up needed. RV after 1 month with reports.",
+    "fu_type": "DATED",
+    "days_min": 30,
+    "days_max": 30,
+    "escalation_explicit": false,
+    "ambiguous": true,
+    "note": "contradicts itself: no FU vs RV 1 month"
+  },
+  {
+    "id": "H111",
+    "text": "Cap Omeprazole 20 mg OD x 2/52.",
+    "fu_type": "UNCLEAR",
+    "days_min": null,
+    "days_max": null,
+    "escalation_explicit": false,
+    "ambiguous": false,
+    "note": "2/52 is drug duration"
+  },
+  {
+    "id": "H112",
+    "text": "ANC - G2P1L1 @ 24 wks. Tab IFA OD, Tab Calcium BD. Next ANC visit after 4 weeks.",
+    "fu_type": "DATED",
+    "days_min": 28,
+    "days_max": 28,
+    "escalation_explicit": false,
+    "ambiguous": false,
+    "note": "4 weeks = 28 days"
+  },
+  {
+    "id": "H113",
+    "text": "7-10 दिन बाद टांके कटवाने आएं।",
+    "fu_type": "DATED",
+    "days_min": 7,
+    "days_max": 10,
+    "escalation_explicit": false,
+    "ambiguous": false,
+    "note": "range 7-10 days for suture removal"
+  },
+  {
+    "id": "H114",
+    "text": "OA knee B/L. Tab Aceclofenac+PCM BD x 5d after food, quadriceps exercises taught. RV 1/12 ortho OPD.",
+    "fu_type": "DATED",
+    "days_min": 30,
+    "days_max": 30,
+    "escalation_explicit": false,
+    "ambiguous": false,
+    "note": "1/12 = 1 month; 5d is drug duration"
+  },
+  {
+    "id": "H115",
+    "text": "Review after 1 week or SOS.",
+    "fu_type": "DATED",
+    "days_min": 7,
+    "days_max": 7,
+    "escalation_explicit": false,
+    "ambiguous": false,
+    "note": "scheduled 1 week, SOS earlier if needed"
+  },
+  {
+    "id": "H116",
+    "text": "RV PRN",
+    "fu_type": "SOS",
+    "days_min": null,
+    "days_max": null,
+    "escalation_explicit": false,
+    "ambiguous": false,
+    "note": "PRN = as needed"
+  },
+  {
+    "id": "H117",
+    "text": "Sugar low ho (chakkar, pasina aaye) to turant aana.",
+    "fu_type": "SOS",
+    "days_min": null,
+    "days_max": null,
+    "escalation_explicit": false,
+    "ambiguous": false,
+    "note": "return only if hypoglycaemia symptoms"
+  },
+  {
+    "id": "H118",
+    "text": "दवाई 5 दिन। 1 हफ्ते बाद दोबारा दिखाएं।",
+    "fu_type": "DATED",
+    "days_min": 7,
+    "days_max": 7,
+    "escalation_explicit": false,
+    "ambiguous": false,
+    "note": "1 week; 5 days is drug duration"
+  },
+  {
+    "id": "H119",
+    "text": "3 yr child, AGE with some dehydration. ORS after each loose stool, Zinc 20 mg OD x 14 days. Review after 2 days.",
+    "fu_type": "DATED",
+    "days_min": 2,
+    "days_max": 2,
+    "escalation_explicit": false,
+    "ambiguous": false,
+    "note": "Review 2 days; zinc 14 days is drug duration"
+  },
+  {
+    "id": "H120",
+    "text": "Primary infertility - come on D2 of next cycle for FSH, LH, AMH.",
+    "fu_type": "CONDITIONAL",
+    "days_min": null,
+    "days_max": null,
+    "escalation_explicit": false,
+    "ambiguous": false,
+    "note": "tied to menstrual cycle, no calendar window"
+  }
+]

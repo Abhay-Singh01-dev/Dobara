@@ -1,0 +1,9 @@
+
+[rules-v2 (after fixes)] DEV H001-H060  n=60
+  auto-correct 34 (57%) | flagged 26 (43%) | SILENT 0 (0.0%)
+  E1 pre-filled without explicit phrase: 0 | explicit phrase missed: 3
+
+[rules-v2 (after fixes)] SEALED H061-H120  n=60
+  auto-correct 18 (30%) | flagged 40 (67%) | SILENT 2 (3.3%)
+     SILENT:MISSCHEDULE: 2
+  E1 pre-filled without explicit phrase: 0 | explicit phrase missed: 0

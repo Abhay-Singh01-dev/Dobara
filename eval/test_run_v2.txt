@@ -1,0 +1,41 @@
+test_AT01_missing_window_is_never_guessed (test_acceptance.AcceptanceTests.test_AT01_missing_window_is_never_guessed) ... ok
+test_AT02_conflicting_windows_go_to_clinician (test_acceptance.AcceptanceTests.test_AT02_conflicting_windows_go_to_clinician) ... ok
+test_AT03_medication_and_complaint_durations_ignored (test_acceptance.AcceptanceTests.test_AT03_medication_and_complaint_durations_ignored) ... ok
+test_AT04_escalation_never_inferred (test_acceptance.AcceptanceTests.test_AT04_escalation_never_inferred) ... ok
+test_AT05_only_clinician_confirms_or_sets_type (test_acceptance.AcceptanceTests.test_AT05_only_clinician_confirms_or_sets_type) ... ok
+test_AT06_grounding_guard_rejects_hallucinated_fields (test_acceptance.AcceptanceTests.test_AT06_grounding_guard_rejects_hallucinated_fields) ... ok
+test_AT07_reader_disagreement_is_never_resolved_silently (test_acceptance.AcceptanceTests.test_AT07_reader_disagreement_is_never_resolved_silently) ... ok
+test_AT08_privacy_on_shared_phones_and_sensitive_departments (test_acceptance.AcceptanceTests.test_AT08_privacy_on_shared_phones_and_sensitive_departments) ... ok
+test_AT09_order_and_return_matching (test_acceptance.AcceptanceTests.test_AT09_order_and_return_matching) ... ok
+test_AT10_no_contact_patients_are_never_dropped (test_acceptance.AcceptanceTests.test_AT10_no_contact_patients_are_never_dropped) ... ok
+test_AT11_capacity_overflow_is_reported (test_acceptance.AcceptanceTests.test_AT11_capacity_overflow_is_reported) ... ok
+test_AT12_audit_trail_complete_and_tamper_evident (test_acceptance.AcceptanceTests.test_AT12_audit_trail_complete_and_tamper_evident) ... ok
+test_AT13_ai_outage_or_malformed_output_falls_back (test_acceptance.AcceptanceTests.test_AT13_ai_outage_or_malformed_output_falls_back) ... ok
+test_AT14_patient_slip_uses_confirmed_fields_and_both_languages (test_acceptance.AcceptanceTests.test_AT14_patient_slip_uses_confirmed_fields_and_both_languages) ... ok
+test_AT15_reported_symptoms_transfer_to_doctor_no_advice (test_acceptance.AcceptanceTests.test_AT15_reported_symptoms_transfer_to_doctor_no_advice) ... ok
+test_AT16_consent_respected_and_wrong_number_stops_messages (test_acceptance.AcceptanceTests.test_AT16_consent_respected_and_wrong_number_stops_messages) ... ok
+test_AT17_sos_and_none_create_no_outreach (test_acceptance.AcceptanceTests.test_AT17_sos_and_none_create_no_outreach) ... ok
+test_AT18_conditional_and_flagged_drafts_need_an_explicit_type (test_acceptance.AcceptanceTests.test_AT18_conditional_and_flagged_drafts_need_an_explicit_type) ... ok
+test_AT19_amber_values_need_a_tick (test_acceptance.AcceptanceTests.test_AT19_amber_values_need_a_tick) ... ok
+test_AT20_unconfirmed_drafts_are_surfaced (test_acceptance.AcceptanceTests.test_AT20_unconfirmed_drafts_are_surfaced) ... ok
+test_AT21_e1_is_called_when_the_window_ends_and_reminders_go_before (test_acceptance.AcceptanceTests.test_AT21_e1_is_called_when_the_window_ends_and_reminders_go_before) ... ok
+test_AT22_amend_needs_clinician_and_reason (test_acceptance.AcceptanceTests.test_AT22_amend_needs_clinician_and_reason) ... ok
+test_AT23_ai_second_reader_dates_and_prefill_switch (test_acceptance.AcceptanceTests.test_AT23_ai_second_reader_dates_and_prefill_switch) ... ok
+test_F10_single_source_and_medicine_quotes (test_audit_regressions.AuditRegressions.test_F10_single_source_and_medicine_quotes) ... ok
+test_F16_prerequisites_fixed_vocabulary_and_blank_quotes (test_audit_regressions.AuditRegressions.test_F16_prerequisites_fixed_vocabulary_and_blank_quotes) ... ok
+test_F17_negation_and_context (test_audit_regressions.AuditRegressions.test_F17_negation_and_context) ... ok
+test_F1_word_boundary (test_audit_regressions.AuditRegressions.test_F1_word_boundary) ... ok
+test_F22_dates (test_audit_regressions.AuditRegressions.test_F22_dates) ... ok
+test_F2_duration_must_belong_to_the_trigger (test_audit_regressions.AuditRegressions.test_F2_duration_must_belong_to_the_trigger) ... ok
+test_F3_bound_words_before_or_after (test_audit_regressions.AuditRegressions.test_F3_bound_words_before_or_after) ... ok
+test_F4_symptom_conditional_variants (test_audit_regressions.AuditRegressions.test_F4_symptom_conditional_variants) ... ok
+test_F5_none_or_sos_outside_followup_context_never_drops (test_audit_regressions.AuditRegressions.test_F5_none_or_sos_outside_followup_context_never_drops) ... ok
+test_F6_dates_and_shorthand (test_audit_regressions.AuditRegressions.test_F6_dates_and_shorthand) ... ok
+test_F7_any_hard_flag_needs_explicit_type (test_audit_regressions.AuditRegressions.test_F7_any_hard_flag_needs_explicit_type) ... ok
+test_F8_type_disagreement_and_injection (test_audit_regressions.AuditRegressions.test_F8_type_disagreement_and_injection) ... ok
+test_F9_rule_flags_survive_merge (test_audit_regressions.AuditRegressions.test_F9_rule_flags_survive_merge) ... ok
+
+----------------------------------------------------------------------
+Ran 36 tests in 0.057s
+
+OK

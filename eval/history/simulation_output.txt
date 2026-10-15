@@ -1,0 +1,10 @@
+ASSUMPTIONS: {'fraction_marked': 0.3, 'opd_days': 10, 'esc_mix': (0.2, 0.4, 0.4), 'consent_rate': 0.9, 'chw_consent': 0.6, 'call_capacity_per_day': 40}
+
+Follow-up records captured: 2700  | sent to clinician by a blocking flag: 491 (18%)
+Tracked (DATED): 2357 | SOS/NONE not tracked: 343
+Open missed items on 2026-12-22: 518
+By escalation: {'E1': 82, 'E2': 216, 'E3': 220}
+First action by route: {'SMS': 350, 'SMS_MINIMAL': 82, 'FLAG_AT_NEXT_CONTACT': 41, 'CHW_LINE_LIST': 45}
+Calls assigned today: 40 / capacity 40 | E1 calls unassigned: 29
+ALERT: CAPACITY: 29 E1 calls could not be assigned today (capacity 40). Escalate to records supervisor.
+Audit chain intact: True | entries: 7116

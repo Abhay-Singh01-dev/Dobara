@@ -1,0 +1,12 @@
+
+[templated synthetic set] n=500
+  auto-correct (no human fix needed): 319 (64%)
+  flagged to clinician (safe):        181 (36%)
+  SILENT ERRORS (wrong, unflagged):   0 (0.0%)
+  E1 pre-filled without explicit phrase: 0   explicit phrase missed: 0
+
+[hand-written adversarial set] n=30
+  auto-correct (no human fix needed): 19 (63%)
+  flagged to clinician (safe):        11 (37%)
+  SILENT ERRORS (wrong, unflagged):   0 (0.0%)
+  E1 pre-filled without explicit phrase: 0   explicit phrase missed: 0

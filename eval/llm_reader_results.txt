@@ -1,0 +1,23 @@
+
+DEV H001-H060 (inspectable; used to choose the policy)  (n=60)
+  policy             GREEN     AMBER-ok  AMBER-WRONG          RED       SILENT
+  RULES            34 (57%)       0 ( 0%)       0 ( 0%)      26 (43%)       0 ( 0%)
+  P1-SECOND        34 (57%)       0 ( 0%)       0 ( 0%)      26 (43%)       0 ( 0%)
+  P2-PREFILL       34 (57%)       0 ( 0%)       0 ( 0%)      26 (43%)       0 ( 0%)
+  Reading correct before any flag logic: rules 47/60, AI (grounded) 41/60
+
+Second-reader test against the pre-audit rule reader (v1):
+   H002 v1=DATED(14, 14) AI=DATED(14, 14) missed | RV after 2 wks / after USG
+   H010 v1=SOS(None, None) AI=NONE(None, None) CAUGHT | Dobara aane ki zarurat nahi.
+   H055 v1=DATED(14, 14) AI=CONDITIONAL(14, 14) CAUGHT | TFT sent. If TSH normal - no F/U. If raised, RV 2 wks in NCD
+  DEV: v1 silent errors 3; AI second reader would have sent 2 of them to a person
+
+SEALED H061-H120 (aggregates only; reported once after the policy was chosen)  (n=60)
+  policy             GREEN     AMBER-ok  AMBER-WRONG          RED       SILENT
+  RULES            18 (30%)       5 ( 8%)       1 ( 2%)      36 (60%)       0 ( 0%)
+  P1-SECOND        22 (37%)       1 ( 2%)       0 ( 0%)      37 (62%)       0 ( 0%)
+  P2-PREFILL       22 (37%)       3 ( 5%)       2 ( 3%)      33 (55%)       0 ( 0%)
+  Reading correct before any flag logic: rules 39/60, AI (grounded) 40/60
+
+Second-reader test against the pre-audit rule reader (v1):
+  SEALED: v1 silent errors 5; AI second reader would have sent 4 of them to a person

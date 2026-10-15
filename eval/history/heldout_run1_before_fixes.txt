@@ -1,0 +1,16 @@
+
+[rules-v1 (before fixes)] DEV H001-H060  n=60
+  auto-correct 28 (47%) | flagged 29 (48%) | SILENT 3 (5.0%)
+     SILENT:MISSCHEDULE: 1
+     SILENT:OVERTRACK: 1
+     SILENT:TYPE: 1
+  E1 pre-filled without explicit phrase: 0 | explicit phrase missed: 3
+    ('H002', 'SILENT:MISSCHEDULE', 'RV after 2 wks / after USG', 'DATED', (14, 14), 'DATED', (14, 14), ['ESCALATION_NOT_SPECIFIED'])
+    ('H010', 'SILENT:TYPE', 'Dobara aane ki zarurat nahi.', 'NONE', (None, None), 'SOS', (None, None), [])
+    ('H055', 'SILENT:OVERTRACK', 'TFT sent. If TSH normal - no F/U. If raised, RV 2 wks in NCD clinic.', 'SOS', (None, None), 'DATED', (14, 14), ['ESCALATION_NOT_SPECIFIED'])
+
+[rules-v1 (before fixes)] SEALED H061-H120  n=60
+  auto-correct 20 (33%) | flagged 35 (58%) | SILENT 5 (8.3%)
+     SILENT:MISSCHEDULE: 3
+     SILENT:TYPE: 2
+  E1 pre-filled without explicit phrase: 0 | explicit phrase missed: 0
