@@ -2,6 +2,8 @@
 
 **Case 03 (Healthcare): The Follow-Up Blind Spot** · AI Synergy Hackathon 2026 · ABV-IIITM Gwalior
 
+**Team Slayers:** Ashutosh Lodhi (team leader), Abhay Pratap Singh Rajpoot
+
 *Dobara* (दोबारा) is Hindi for "again". It is the word Indian OPD slips use for a follow-up ("dobara dikhayein"). Dobara makes sure the clinician's "come back" survives the end of the visit:
 
 1. The clinician's free-text instruction is captured in a form the hospital can act on.
